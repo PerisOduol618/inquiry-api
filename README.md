@@ -98,16 +98,6 @@ DB_CONNECTION=sqlite`
 
 ### Instructions to Include Images
 
-To include images in your README, follow these steps:
-
-1. Create a folder named `images` in your project root directory.
-2. Place your images in the `images` folder.
-3. Use the following Markdown syntax to add images:
-
-   ```markdown
-   ![Description](Screenshot from 2024-06-13 07-01-47.png)
-   
-
 
 
 ## License
