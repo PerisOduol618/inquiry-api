@@ -38,8 +38,38 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/inquiry-management-system.git
-   cd inquiry-management-system
+   git clone git@github.com:PerisOduol618/inquiry-api.git
+
+   cd dawit-insurance
+
+## Install dependencies:
+
+`composer install`
+
+## Set up the environment file:
+`cp .env.example .env
+`
+## Generate an application key:
+`php artisan key:generate
+`
+
+## Configure the database:
+`
+DB_CONNECTION=sqlite`
+
+`DB_DATABASE=/absolute/path/to/your/database.sqlite
+`
+
+## Create the SQLite database file:
+
+`touch /absolute/path/to/your/database.sqlite`
+
+## Run migrations:
+`php artisan migrate`   
+
+## Start the Laravel development server:
+
+`php artisan serve`
 
 # API Endpoints
 
