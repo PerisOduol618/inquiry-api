@@ -101,11 +101,5 @@ DB_CONNECTION=sqlite`
 
 
 ## License
-
-In the above `README.md`:
-
-- Ensure you add the `get_request_example.png` and `post_request_example.png` images in an `images` folder in your repository.
-- Adjust paths, repository URLs, and other specifics as necessary to fit your actual project setup.
-
 This updated README includes all necessary setup steps, detailed explanations for making GET and POST requests, and images to illustrate how the requests work.
 
